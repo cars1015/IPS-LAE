@@ -6,11 +6,6 @@ import pandas as pd
 from scipy.sparse import csr_matrix
 import bottleneck as bn
 from sklearn.preprocessing import LabelEncoder
-print("numpy", np.__version__)
-print("pandas", pd.__version__)
-print("scipy", scipy.__version__)
-print("bottleneck", bn.__version__)
-print("scikit-learn", sklearn.__version__)
 
 #==================================================
 # Evaluation Class

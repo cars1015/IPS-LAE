@@ -44,7 +44,7 @@ do
         fi
       elif [ "$MODEL" == "rdlae" ]; then
         if [ "$WEIGHTED" == true ]; then
-          LAMBDA=00; BETA=0.1; DROP_P=0.4; ALPHA=0.2
+          LAMBDA=700; BETA=0.7; DROP_P=0.3; ALPHA=0.1
         else
           LAMBDA=1000; DROP_P=0.2; ALPHA=0.6
         fi
@@ -74,7 +74,7 @@ do
     elif [ "$DATASET" == "msd" ]; then
       if [ "$MODEL" == "ease" ]; then
         if [ "$WEIGHTED" == true ]; then
-          LAMBDA=500; BETA=0.2
+          LAMBDA=200; BETA=0.1
         else
           LAMBDA=200
         fi
