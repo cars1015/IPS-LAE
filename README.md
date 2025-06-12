@@ -70,7 +70,7 @@ This setup allows flexible experimentation with different bias correction strate
 
 ## Supplementary materials for rebuttal
 ### Replacement material for Figure 2
-![ALT](https://github.com/cars1015/Recsys2025_Logsigmoid/image/Figure2.png)
+![ALT](https://github.com/cars1015/Recsys2025_Logsigmoid/blob/main/image/Figure2.png)
 
 ### SANSA experimental results
 
