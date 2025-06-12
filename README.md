@@ -67,3 +67,11 @@ You may freely adjust the following options when running `main.py` manually:
   - `--wbeta`: controls the strength of bias correction (used in both `logsigmoid` and `powerlaw`)
 
 This setup allows flexible experimentation with different bias correction strategies and model architectures.
+
+## Supplementary materials for rebuttal
+### Replacement material for Figure 2
+![ALT](https://github.com/cars1015/Recsys2025_Logsigmoid/image/Figure2)
+
+### SANSA experimental results
+
+
