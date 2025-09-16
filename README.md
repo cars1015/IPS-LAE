@@ -16,7 +16,7 @@ conda env create -f environment.yml
 ```
 ### Activate
 ```bash
-conda activate sigprop-rec
+conda activate IPS-LAE
 ```
 
 ### Reproduce Evaluation Results in Paper
@@ -25,7 +25,11 @@ To reproduce the experimental results shown in Table 1, use the following shell 
 ./run.sh ml-20m
 ./run.sh netflix-prize
 ./run.sh msd
+./run_sansa.sh ml-20m
+./run_sansa.sh netflix-prize
+./run_sansa.sh msd
 ```
+SANSA was implemented based on the [github]{https://github.com/glami/sansa/tree/reproduce_our_results}.
 
 ## Optional: Custom Runs
 
@@ -68,10 +72,4 @@ You may freely adjust the following options when running `main.py` manually:
 
 This setup allows flexible experimentation with different bias correction strategies and model architectures.
 
-## Supplementary materials for rebuttal
-### Replacement material for Figure 2
-![ALT](https://github.com/cars1015/Recsys2025_Logsigmoid/blob/main/image/Figure2.png)
-
-### SANSA experimental results
-
-
+#Reference
