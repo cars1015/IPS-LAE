@@ -19,7 +19,7 @@ conda env create -f environment.yml
 conda activate IPS-LAE
 ```
 
-### Reproduce Evaluation Results in Paper
+## Reproduce Evaluation Results in Paper
 To reproduce the experimental results shown in Table 1, use the following shell script:
 ```bash
 ./run.sh ml-20m
