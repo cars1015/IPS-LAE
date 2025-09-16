@@ -62,7 +62,6 @@ You may freely adjust the following options when running `main.py` manually:
 - **Weighting**:
   - Add `--wflg` to enable weighting
   - Choose type via `--wtype logsigmoid` or `--wtype powerlaw`
-  - Omit `--wflg` for no weighting
 
 - **Hyperparameters**:
   - `--lambda`: regularization strength
