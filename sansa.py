@@ -195,7 +195,6 @@ def run_experiment(df_train, df_test_tr, test_data_te, eval_obj, n_items,
     shape = (u_enc.classes_.size, model.item_enc.classes_.size)
     X_te_csr = csr_matrix((values, (users_id, items_id)), shape=shape)
     pred = X_te_csr.dot(model.B)
-    print("pred:",pred.shape)
     pred[X_te_csr.nonzero()] = -np.inf
 
     ndcg100 = np.mean(eval_obj.NDCG(pred, test_data_te, k=100))
