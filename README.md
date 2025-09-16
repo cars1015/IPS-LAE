@@ -29,7 +29,7 @@ To reproduce the experimental results shown in Table 1, use the following shell 
 ./run_sansa.sh netflix-prize
 ./run_sansa.sh msd
 ```
-SANSA was implemented based on the [github]{https://github.com/glami/sansa/tree/reproduce_our_results}.
+SANSA was implemented based on the [github](https://github.com/glami/sansa/tree/reproduce_our_results).
 
 ## Optional: Custom Runs
 
